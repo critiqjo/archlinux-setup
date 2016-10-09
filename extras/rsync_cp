@@ -1,0 +1,1 @@
+rsync -vaEAX --info=progress2 --partial /source/path /dest/dir/

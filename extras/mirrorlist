@@ -1,0 +1,51 @@
+##
+## Arch Linux repository mirrorlist
+## Generated on 2016-10-05
+##
+
+## Worldwide
+Server = http://mirror.rackspace.com/archlinux/$repo/os/$arch
+#Server = https://archlinux.surlyjake.com/archlinux/$repo/os/$arch
+#Server = http://mirrors.evowise.com/archlinux/$repo/os/$arch
+
+## Singapore
+Server = http://download.nus.edu.sg/mirror/arch/$repo/os/$arch
+#Server = http://mirror.0x.sg/archlinux/$repo/os/$arch
+
+## Hong Kong
+Server = http://hkg.mirror.rackspace.com/archlinux/$repo/os/$arch
+
+## Japan
+Server = http://ftp.tsukuba.wide.ad.jp/Linux/archlinux/$repo/os/$arch
+Server = http://ftp.jaist.ac.jp/pub/Linux/ArchLinux/$repo/os/$arch
+
+## South Korea
+Server = http://ftp.kaist.ac.kr/ArchLinux/$repo/os/$arch
+
+## India
+Server = http://mirror.cse.iitk.ac.in/archlinux/$repo/os/$arch
+#Server = http://ftp.iitm.ac.in/archlinux/$repo/os/$arch
+
+## Switzerland
+Server = http://archlinux.puzzle.ch/$repo/os/$arch
+
+## Spain
+Server = http://osl.ugr.es/archlinux/$repo/os/$arch
+
+## China
+Server = http://mirrors.163.com/archlinux/$repo/os/$arch
+Server = http://mirror.bjtu.edu.cn/archlinux/$repo/os/$arch
+Server = http://mirrors.hust.edu.cn/archlinux/$repo/os/$arch
+
+## Denmark
+Server = http://mirrors.dotsrc.org/archlinux/$repo/os/$arch
+Server = http://mirror.one.com/archlinux/$repo/os/$arch
+
+## France
+Server = http://archlinux.aubrac-medical.fr/$repo/os/$arch
+Server = http://mirror.archlinux.ikoula.com/archlinux/$repo/os/$arch
+Server = http://archlinux.vi-di.fr/$repo/os/$arch
+
+## Germany
+Server = http://mirror.23media.de/archlinux/$repo/os/$arch
+Server = http://archlinux.limun.org/$repo/os/$arch
