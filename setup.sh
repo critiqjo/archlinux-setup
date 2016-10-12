@@ -82,8 +82,8 @@ arch-chroot "$ROOTFS" /bin/sh -c "usermod -s /bin/zsh $USER"
 # manually run visudo and uncomment the wheel line; then install these pkgs:
 # xf86-video-intel nvidia xf86-input-keyboard xf86-input-libinput bumblebee
 # xorg-server xorg-server-utils xorg-xinit i3-wm i3status rofi feh alsa-utils compton
-# lightdm-gtk-greeter
+# lightdm-gtk-greeter pulseaudio-alsa
 # rxvt-unicode chromium noto-fonts pcmanfm gvfs udisks gnome-themes-standard
 # networkmanager dnsmasq nm-connection-editor lshw neovim xsel rsync zsh-completions
-# gpicview vlc inkscape xdotool texlive-core evince rustup
+# gpicview vlc qt4 inkscape xdotool texlive-core evince rustup
 # sublime-text ttf-font-awesome
