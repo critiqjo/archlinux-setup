@@ -80,9 +80,9 @@ arch-chroot "$ROOTFS" /bin/sh -c "su -c 'cd ~ && git clone https://github.com/cr
 arch-chroot "$ROOTFS" /bin/sh -c "usermod -s /bin/zsh $USER"
 
 # manually run visudo and uncomment the wheel line; then install these pkgs:
-# xf86-video-intel nvidia xf86-input-keyboard xf86-input-libinput bumblebee
+# xf86-video-intel nvidia xf86-input-keyboard xf86-input-libinput bumblebee bbswitch
 # xorg-server xorg-server-utils xorg-xinit i3-wm i3status rofi feh alsa-utils compton
-# lightdm-gtk-greeter pulseaudio-alsa
+# lightdm-gtk-greeter pulseaudio-alsa libnotify dunst
 # rxvt-unicode chromium noto-fonts pcmanfm gvfs udisks gnome-themes-standard
 # networkmanager dnsmasq nm-connection-editor lshw neovim xsel rsync zsh-completions
 # gpicview vlc qt4 inkscape xdotool texlive-core evince rustup
