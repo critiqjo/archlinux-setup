@@ -1,0 +1,8 @@
+#
+# /etc/fstab: static file system information
+#
+# <file system>	<dir>           <type>	<options>                           	<dump>	<pass>
+/dev/sda4   	/               btrfs	rw,relatime,space_cache,subvol=/root	0   	0
+/dev/sda4   	/boot           btrfs	rw,relatime,space_cache,subvol=/boot	0   	0
+/dev/sda4   	/home           btrfs	rw,relatime,space_cache,subvol=/home	0   	0
+/dev/sda5   	/mnt/multimedia ntfs	defaults,umask=133,dmask=022,uid=1000	0   	0

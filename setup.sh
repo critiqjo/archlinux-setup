@@ -24,7 +24,7 @@ popd >/dev/null
 
 export LANG="en_US.UTF-8"
 
-findmnt "$ROOTFS" || {
+findmnt -R "$ROOTFS" || {
     echo "The root path must be a mount point: $ROOTFS"
     exit 1
 }
